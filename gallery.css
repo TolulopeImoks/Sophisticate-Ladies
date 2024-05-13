@@ -1,0 +1,43 @@
+#gallery-container{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery{
+    border: 1px solid #008000;
+}
+
+.gallery:hover {
+    border: #008000;
+}
+
+.gallery img {
+    height: 250px;
+    width: 250px;
+ 
+}
+
+@media screen and (max-width:768px) {
+    #gallery-container{
+        min-width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 60px;
+        padding: 20px;
+    }
+
+
+    .gallery img {
+        width: 90%;
+        margin: 0px;
+        padding: 60px;
+        height: auto;
+       
+     
+    }
+    
+    }
